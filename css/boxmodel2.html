@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>boxmodel2</title>
+  <link rel="stylesheet" href="asset/css/style1">
+  <style>
+    *{padding: 0;margin: 0;}
+    h1{background-color: #f68;}
+    .box:nth-of-type(1){margin: 50px;
+   }
+    .box:nth-of-type(2){ background-color: #ccc; width: 300px; padding: 30px 50px; border: 1px solid#000; /*margin: 100px auto;*/ text-align: center;}
+    ul{width: 80%; background-color: #ccc; margin: 50px auto; text-align: center;}
+    ul li{background-color: #f68; /*padding: 2rem;*/ width: calc(25%-4px);/*25%;*//*100px;*/ display: inline-block;}
+    .test{background-color: #6f8; border: 1px solid #000;
+    /*padding: 50px; margin: 50px;*/ padding: 0 1rem; margin: o 2rem; width: 300px;}
+  
+  </style>
+</head>
+<body>
+  <h1 class="page-title">웹폰트 사용</h1>
+  <div class="box">Lorem <span class="test">ipsum, dolor</span> sit <span class="test">amet consectetur</span> adipisicing elit. Optio nulla incidunt consequatur fuga aliquid officiis, assumenda pariatur itaque possimus? Expedita eum voluptate cum neque, voluptatem alias voluptas quis perferendis incidunt?</div>
+  <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vitae perspiciatis provident, deleniti ratione cum, culpa voluptates, excepturi perferendis in quod. Eum maxime, corporis voluptatum sit molestiae unde consectetur ipsa?</div>
+  <ul>
+    <li><a href="">test1</a></li>
+    <li><a href="">test2</a></li>
+    <li><a href="">test3</a></li>
+    <li><a href="">test4</a></li>
+  </ul>
+  <div class="box">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eaque corporis ratione molestias nisi odit ullam dolore vero veritatis, maiores saepe id, inventore tempore perspiciatis incidunt sint laboriosam impedit eos.
+  </div>
+  <style>
+   
+  </style>
+</body>
+</html>

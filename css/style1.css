@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@100;400;700;900&display=swap');
+/*font-family: 'IBM Plex Sans KR', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;*/
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700;900&display=swap');*/
+/*font-family: 'Noto Sans KR', sans-serif;*/
+body{font-family: "궁서체","맑은고딕";
+/*font-size: 14px;
+line--height: 1.4;*/
+font:  14px/1.4 'Noto Sans KR', sans-serif;
+color: #333;
+-webkit-text-size-adjust: none;}
+a:link,
+a:visited{color: #333; text-decoration: none;}
+a:hover{color: #f00; text-decoration: underline;}
+.page-title{font-size: 2.5rem; font-weight: 700;
+font-family: 'IBM Plex Sans KR', sans-serif;}
+.box{border-color: #000;
+border-style: dashed;}
+h1{background-color: #f68;}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>boxmodel3</title>
+  <style>
+    *{margin: 0; padding: 0;}
+    .box{width: 400px; height: 300px; padding: 50px; border: 10px solid #f86; margin: 50px auto; background-color: #333; color: #fff;}
+    .box1{box-sizing: con;}
+    .box2{box-sizing: border-box;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="box box1">
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolores fuga sed soluta molestias rerum, quidem voluptatum, iste cum, magni consequatur corrupti et aut facilis laudantium dignissimos ut esse ea.</div>
+      <div>Placeat cupiditate deleniti labore ipsum error beatae, architecto dignissimos distinctio. Commodi consequuntur esse assumenda non suscipit minima fugiat quibusdam, sit corporis aliquam repellendus at sunt harum obcaecati nisi necessitatibus accusamus!</div>
+    </div>
+    <div class="box box2">
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur libero repellat, incidunt repudiandae reiciendis, beatae officiis quam quo quisquam rem quidem ex, officia tempore voluptas autem fugiat sed enim quis!</div>
+      <div>Delectus esse, repudiandae facilis et fugit quidem sapiente deleniti minima magni amet sint ex! Eos perspiciatis ad distinctio debitis autem ex libero, voluptate qui et animi similique reiciendis. Vero, adipisci!</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>text관련</title>
+  <style>
+    *{margin: 0; padding: 0;}
+    .wrap{margin: 50px; box-sizing: border-box; border: 1px solid #000;}
+    .wrap p{text-indent: 1em; text-transform: uppercase; letter-spacing: 6px;}
+    .wrap p:last-child{text-indent: -32px; text-transform: capitalize; letter-spacing: -3px;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam enim eos eius cumque sint possimus, qui aliquid quos voluptatem neque esse atque? Possimus iste ducimus, non recusandae officiis corporis.
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab hic delectus architecto vitae eius laboriosam optio itaque unde corporis repudiandae molestiae ad rem, explicabo, officiis earum? Quo temporibus voluptatem veniam.
+      </p>
+    </p>
+  </div>
+  <div class="shadow sect1">
+    <p class="section-title">section title</p>
+  </div>
+  <div class="shadow sect2">
+    <p class="section-title">section title</p>
+  </div>
+
+  <style>
+   .section-title{padding: 1em; font-size: 2.5rem; text-transform: capitalize; padding: 1em; /*text-shadow: -10px -10px 0px rgba(255, 0, 0, 0.5);*/ text-shadow: 10px -10px 5px rgba(255, 0, 0, 0.5);}
+   .sect2{background-color: #333;}
+   .sect2 .section-title{color: #fff; text-shadow: 0px 0px 10px rgba(255,255,255,1); font-weight: 700;}
+  </style>
+</body>
+</html>

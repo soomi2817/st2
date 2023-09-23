@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>테이블관련css</title>
+</head>
+<body>
+  <div class="container">
+    <table class="sample">
+      <!--tr>th*3>{title$}^^tr*3>td*3>lorem2-->
+      <tr>
+        <th>title1</th>
+        <th>title2</th>
+        <th>title3</th>
+      </tr>
+      <tr>
+        <td>가나다라마바사아자차카</td>
+        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo maiores expedita hic natus! Magni nobis totam aspernatur quae quia, autem doloremque nulla rerum enim animi sint. Necessitatibus dignissimos ea aperiam?
+        Nam, recusandae. Vel culpa animi ea impedit iusto sed tempore assumenda, cupiditate quidem temporibus, enim rerum soluta debitis natus, officiis quos fugiat corrupti autem officia quo ex amet! Ducimus, maxime!</td>
+        <td>Sit, alias!</td>
+      </tr>
+      <tr>
+        <td>abc def ghi</td>
+        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus expedita veritatis minus ipsum tempore nobis, doloribus aliquid. Distinctio accusamus facilis nesciunt hic error, deserunt libero nihil! Accusantium deserunt accusamus perspiciatis.
+        Est beatae facere laboriosam eveniet soluta neque temporibus ex consectetur dolorem aperiam necessitatibus exercitationem, accusantium itaque nesciunt eius perferendis molestias corrupti quidem quam delectus officiis obcaecati. Rem dignissimos libero error!</td>
+        <td>Eum, quas?</td>
+      </tr>
+      <tr>
+        <td>Lorem, ipsum.</td>
+        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quod fugiat quas quidem a, tempora veniam dolores laboriosam dolorum non doloremque alias, quisquam ducimus facere provident voluptate fugit eaque. Accusamus.
+        Quae a, reprehenderit odio eum facilis modi possimus totam architecto doloremque quod rem voluptates ducimus nesciunt ut illo ipsum dolorem? Saepe quidem voluptatum exercitationem tenetur molestiae perspiciatis dolor quo facilis.</td>
+        <td>Tempore, minus.</td>
+      </tr>
+    </table>
+  </div>
+  <style>
+    *{margin: 0; padding: 0;}
+    .container{margin: 50px;}
+    table, tr, td, th{box-sizing: border-box;}
+    table.sample{border-collapse: collapse;  width: 100%; border: 1px solid #000; border-top: 10px solid #f86; table-layout: fixed;}
+    .sample tr:nth-child(1) th {background-color: #000; color: #fff; padding: 1rem;}
+    .sample tr:nth-child(1) td{vertical-align: middle;}
+    .sample tr:nth-child(2) td{vertical-align: top;}
+    .sample tr:nth-child(3) td{vertical-align: middle;}
+    .sample tr:nth-child(4) td{vertical-align: bottom;}
+    .sample tr:nth-child(even){background-color: #efefef;}
+    .sample tr:nth-child(odd){background-color: #fff;}
+    .sample tr:hover td{background-color: #68f;}
+    .sample th, .sample td{border: 1px solid #000; padding: 1em;}
+    .sample th:nth-child(1){width: 13em;}
+    .sample th:nth-child(3){width: 150px;}
+  
+   
+  </style>
+  
+</body>
+</html>

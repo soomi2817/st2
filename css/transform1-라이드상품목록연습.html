@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="asset/css/cafe24reset.css">
   <style>
     .wrap{max-width: 1240px; margin: 50px auto 0;}
-    ec-base-product .prdList{overflow: hidden;}
+    .ec-base-product .prdList{overflow: hidden;}
     .ec-base-product .prdList{background-color: #ccc;}
     .ec-base-product .prdList:after{content: ''; display: block; clear: both;}
-    .ec-base-product .prdList >li{position: relative;/*display: inline-block;*/float: left; background-color: #f68; box-sizing: border-box; padding: 0 10px;}
+    .ec-base-product .prdList >li{position: relative; /*display: inline-block;*/float: left; background-color: #f68; box-sizing: border-box; padding: 0 10px;}
     .ec-base-product .grid2 > li{width: 50%;}
     .ec-base-product .grid3 > li{width: 33.3333%;}
     .ec-base-product .grid4 > li{width: 25%;}
@@ -19,9 +19,9 @@
     .ec-base-product .prdList > li .icon__box{position: absolute; right: 0px; top: 0px;}
     .ec-base-product .prdList > li .icon__box>span{display: block;}
     /**/
-    .ec-base-product .prdList .description{position: absolute; left: 0px; bottom: 0px; background-color: rgba(255,255,255,0.5); width: 100%; padding: 1em; box-sizing: border-box;}
+    .ec-base-product .prdList .description{position: absolute; left: 0px; bottom: 0px; transform: translate(0,100%); transition: all 0.1s; background-color: rgba(255,0,0,0.5); width: 100%; padding: 1em; box-sizing: border-box;}
     /*transform*/
-    
+    .ec-base-product .prdList >li:hover .description{transform: translate(0,0); background-color: rgba(255,255,255,0.9); transition: all 0.5s;}
  
   </style>
 </head>

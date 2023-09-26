@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexitem-1번스타일</title>
+  <style>
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    .wrap{}
+    .parent{background-color: rgba(0, 0, 255, 0.5); height: 400px;}
+    .child{background-color: #fff; color: #000; font-size: 2em; padding: 1em;}
+    .child p{background-color: rgba(0, 255, 0, 0.5); border: 1px solid #0f0; max-width: 500px;}
+    .container{display: flex; /*justify-content: flex-start; align-items: stretch;*/}
+    .item{/* flex-shrink: 0; flex-basis: auto;*/flex: none; margin: auto; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;}
+    .item p{flex-grow: 0; flex-shrink: 1; flex-basis: auto; }
+    .child p:last-child{font-size: 0.4em;}
+  </style>
+</head>
+<body>
+  <h1>수직 수평 가운데 정렬</h1>
+  <h2>
+    <p>주측정렬</p>
+    <p>교차축정렬</p>
+    <p>아이템크기는 고정</p>
+  </h2>
+  <div class="wrap">
+    <div class="parent container">
+      <div class="child item">
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde explicabo provident similique perferendis temporibus vitae consectetur minima iure asperiores, excepturi fugiat quisquam. Deserunt eum quisquam quae. Ut, velit blanditiis.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex-wrap 여러줄 플렉스 아이템</title>
+  <style>
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    .wrap{margin-top: 50px;}
+    .parent{background-color: #ccc; padding: 30px;}
+    .child{background-color: rgba(0, 0, 255, 0.5); border: 1px solid #000;}
+    .container{width: 600px; height: 600px; display: flex; flex-wrap: wrap; align-items: flex-start; align-content: space-between;}
+    .item{/*flex-shrink: 0;*/ flex: none; width: 33.333%; height: 100px;}
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="container parent">
+      <div class="item child">item1</div>
+      <div class="item child">item2</div>
+      <div class="item child">item3</div>
+      <div class="item child">item4</div>
+      <div class="item child">item5</div>
+      <div class="item child">item1</div>
+      <div class="item child">item2</div>
+      <div class="item child">item3</div>
+      <div class="item child">item4</div>
+      <div class="item child">item5</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>footer 하단에 놓기</title>
+  <style>
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    html, body{height: 100%;}
+    body{background-color: #c00;}
+    .test{position: relative; background-color: #ccc; height: 300px;}
+    .test .test_inner{position: absolute; left: 0; bottom: 0; width: 100%; padding: 30px;background-color: #6fc;}
+    .wrap{position: relative; padding: 50px; background-color: #c6f; min-height: 100%;}
+    .wrap footer{position: absolute; left: 0; bottom: 0; background-color: #fc6; padding: 20px; width: 100%;}
+  </style>
+</head>
+<body>
+ 
+  <div class="wrap">
+     <div class="test">가나다라마바사아자
+      <div class="test_inner">테스트의 바닥요소</div>
+     </div>
+     <footer>
+      <div class="footer_inner">
+        다나다라마바사아자
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

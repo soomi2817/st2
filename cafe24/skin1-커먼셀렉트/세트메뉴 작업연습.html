@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>세트메뉴 작업연습</title>
+  <link rel="stylesheet" href="layout/basic/css/common.css">
+  <link rel="stylesheet" href="layout/basic/css/layout.css">
+  <link rel="stylesheet" href="layout/basic/css/ec-base-ui.css">
+  <link rel="stylesheet" href="layout/basic/css/ec-base-desc.css">
+  <link rel="stylesheet" href="layout/basic/css/ec-base-product.css">
+  <link rel="stylesheet" href="layout/basic/css/ec-base-prdInfo.css">
+  <link rel="stylesheet" href="layout/basic/css/main.css">
+  <link rel="stylesheet" href="layout/basic/css/sub_style.css">
+  <link rel="stylesheet" href="세트메뉴 작업연습.css">
+
+
+
+</head>
+<body>
+  <div id="wrap">
+    <div id="container">
+      <div id="contents">
+        <!--세트시작-->
+      <div class="my-container my-set section">
+        <!--연습1 product_listmain_6-->
+        <section class="section main_product_list" data-ez-module="product-list/1" data-ez-layout="grid3 list_gallery" data-ez="contents-07v5n1e-1">
+          <ez-prop data-version="1.0.0">
+            <ez-var data-prop="layout" data-namespace="ez.module.product-list.layout" data-type="array">
+              <ez-item data-id="grid3" data-name="일반3단형(PC 3열/MOBILE 1열)"></ez-item>
+              <ez-item data-id="grid4" data-name="일반4단형(PC 4열/MOBILE 2열)"></ez-item>
+              <ez-item data-id="grid5" data-name="일반5단형(PC 5열/MOBILE 2열)"></ez-item>
+              <ez-item data-id="grid3 list_gallery" data-name="이미지강조3단형(PC 3열/MOBILE 1열)"></ez-item>
+              <ez-item data-id="grid4 list_gallery" data-name="이미지강조4단형(PC 4열/MOBILE 2열)"></ez-item>
+              <ez-item data-id="grid5 list_gallery" data-name="이미지강조5단형(PC 5열/MOBILE 2열)"></ez-item>
+            </ez-var>
+          </ez-prop>
+        
+          <div class="main_title ez-align-left" data-ez-role="ez-align" data-ez-align="left"><!-- 베스트셀러 타이틀 수정하는곳 -->
+            <div class="main_title_txt01" data-ez-role="title">연습1</div>
+            <div class="main_title_txt02" data-ez-role="subtitle">세트상품으로 할인혜택 받으세요</div>
+          </div><!-- //main_title -->
+        
+          <div data-ez-holder="product_listmain">
+            <div module="product_listmain_6" class="ec-base-product">
+              <!--
+                $count = 3
+                $basket_result = /product/add_basket.html
+                $basket_option = /product/basket_option.html
+                $moreview = yes
+                $cache = yes
+              -->
+            <ul class="prdList grid3 list_gallery" data-ez-role="layout ez-discount-tag">
+              <!--@import(/product/list_product.html)-->
+            </ul>
+            </div>
+            <div module="product_listmore_6" class="more">
+              <a href="#none" onclick="{$more_action}" class="btnMore">
+                MORE
+              </a>
+            </div>
+          </div>
+        </section>
+        <!--//연습1 product_listmain_6 끝-->
+        
+        <!--연습2 product_listmain_7-->
+        <section class="section main_product_list" data-ez-module="product-list/1" data-ez-layout="grid3 list_gallery" data-ez="contents-1wk9qyz-1">
+          <ez-prop data-version="1.0.0">
+            <ez-var data-prop="layout" data-namespace="ez.module.product-list.layout" data-type="array">
+              <ez-item data-id="grid3" data-name="일반3단형(PC 3열/MOBILE 1열)"></ez-item>
+              <ez-item data-id="grid4" data-name="일반4단형(PC 4열/MOBILE 2열)"></ez-item>
+              <ez-item data-id="grid5" data-name="일반5단형(PC 5열/MOBILE 2열)"></ez-item>
+              <ez-item data-id="grid3 list_gallery" data-name="이미지강조3단형(PC 3열/MOBILE 1열)"></ez-item>
+              <ez-item data-id="grid4 list_gallery" data-name="이미지강조4단형(PC 4열/MOBILE 2열)"></ez-item>
+              <ez-item data-id="grid5 list_gallery" data-name="이미지강조5단형(PC 5열/MOBILE 2열)"></ez-item>
+            </ez-var>
+          </ez-prop>
+        
+          <div class="main_title ez-align-left" data-ez-role="ez-align" data-ez-align="left"><!-- 베스트셀러 타이틀 수정하는곳 -->
+            <div class="main_title_txt01" data-ez-role="title">연습2</div>
+            <div class="main_title_txt02" data-ez-role="subtitle">아이의 엄마의 커플룩</div>
+          </div><!-- //main_title -->
+        
+          <div data-ez-holder="product_listmain">
+            <div module="product_listmain_7" class="ec-base-product">
+              <!--
+                $count = 3
+                $basket_result = /product/add_basket.html
+                $basket_option = /product/basket_option.html
+                $moreview = yes
+                $cache = yes
+              -->
+            <ul class="prdList grid3 list_gallery" data-ez-role="layout ez-discount-tag">
+              <!--@import(/product/list_product.html)-->
+            </ul>
+            </div>
+            <div module="product_listmore_7" class="more">
+              <a href="#none" onclick="{$more_action}" class="btnMore">
+                MORE
+              </a>
+            </div>
+          </div>
+        </section>
+        <!--//연습2 product_listmain_7 끝-->
+        </div>
+        <!--세트끝-->    
+      </div>
+    </div>
+  </div>
+</body>
+</html>

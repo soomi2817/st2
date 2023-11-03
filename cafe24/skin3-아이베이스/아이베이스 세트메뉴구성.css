@@ -1,4 +1,37 @@
-/* 세트메뉴설정 연습시작 */
+/* 아이베이스 세트메뉴 설정 css시작 */
+
+.my-set .xans-product-listmain li.xans-record- .prdList__item{
+  position: relative;
+  overflow: hidden;
+}
+.my-set .xans-product-listmain li.xans-record- .prdList__item .description{
+  position: absolute;
+  left: 0; 
+  bottom: 0;
+  width: 100%; 
+  padding: 2em 1em;
+  box-sizing: border-box;
+  background-color: rgba(0,0,255,0.7);
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 0.1s;
+}
+.my-set .xans-product-listmain li.xans-record- .prdList__item .description .spec{
+  margin-top: 5px;
+}
+.my-set .xans-product-listmain li.xans-record- .prdList__item .description .spec > li{
+  margin-bottom: 0px;
+}
+.my-set .xans-product-listmain li.xans-record-:hover .prdList__item .description{
+  transform: translateY(0);
+  background-color: rgba(255,255,255,0.7);
+  opacity: 1;
+  transition: all 0.8s;
+}
+
+/* 아이베이스 세트메뉴 설정 css종료 */
+
+/* 커먼셀렉트 세트메뉴설정 연습시작 */
 
 
 .my-container.my-set{
@@ -14,13 +47,13 @@
   margin-left: auto;
   margin-right: auto;
 }
-.my-container.my-set .main_product_list{
+.my-container.my-set .xans-product-listmain{
   flex: none;
   width: calc(50% - var(--my-main_product_list-gap));
   box-sizing: border-box;
 }
 .my-container.my-set .main_product_list .xans-product-listmain{}
-.my-container.my-set .main_product_list .xans-product-listmain .prdList{
+.my-container.my-set .xans-product-listmain .prdList{
   position: relative; 
   display: flex;
   flex-direction: row;
@@ -100,4 +133,4 @@
 
 
 
-/* 세트메뉴설정 연습종료 */
+/* 커먼셀렉트 세트메뉴설정 연습종료 */

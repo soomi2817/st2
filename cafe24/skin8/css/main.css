@@ -1,5 +1,5 @@
-.DrmainBannerWrap {width:100%; margin:20px 0 0 0;}
-.DrBannerBox {width:1400px; margin:0 auto; position: relative; border-radius: 30%; overflow: hidden;}
+.DrmainBannerWrap {width:100%; margin:150px 0 0 0;}
+.DrBannerBox {width:1400px; margin:0 auto; position: relative; border-radius: 50px; overflow: hidden;}
 .DrBannerBox:after {content:''; display:block; clear:both;}
 .DrBannerBox > div {float:left;}
 .DrBannerBox .DrBannerL {width:680px; margin:0 20px 0 0;}
@@ -10,14 +10,14 @@
 .DrBannerBox .DrBannerR .bannerDown > div:nth-child(1) {margin:0 20px 0 0;}
 .DrBannerBox .DrBannerR .bannerDown:after {content:''; display:block; clear:both;}
 .Drcont {width:1400px; margin:0 auto;}
-.Drcont .Drpro1 {margin:50px 0 0 0;}
+.Drcont .Drpro1 {margin:150px 0 0 0;}
 .Drcont .Drpro2 {margin:50px 0 0 0;}
 .Dr_fixed_Bg {width:100%; height:500px; background:url('/img/7.jpg') repeat center center; background-attachment:fixed; margin:100px 0; background-size:cover;}
 .DrmiddleBox {width:100%;}
-.DrmiddleBox .DrmiddleBoxInner {width:1400px; margin:50px auto;}
+.DrmiddleBox .DrmiddleBoxInner {width:1400px; margin:150px auto;}
 .DrmiddleBox .DrmiddleBoxInner:after {content:''; display:block; clear:both;}
-.DrmiddleBox .DrmiddleBoxInner > div {float:left; position: relative; border-radius: 0 50% 50% 0; overflow: hidden;}
-.DrmiddleBox .DrmiddleBoxInner > div:nth-child(1) {margin:0 20px 0 0; position: relative; border-radius: 50% 0 0 50%; overflow: hidden;}
+.DrmiddleBox .DrmiddleBoxInner > div {float:left; position: relative; border-radius: 0 200px 200px 0; overflow: hidden;}
+.DrmiddleBox .DrmiddleBoxInner > div:nth-child(1) {margin:0 20px 0 0; position: relative; border-radius: 200px 0 0 200px; overflow: hidden;}
 .Drcont .Drpro3 {margin:50px 0 0 0;}
 @supports (-ms-ime-align:auto){
     html{

@@ -5,12 +5,16 @@
 .Dr_Top_Wrap {width:100%; border-bottom:1px solid #ccc; position:fixed; top:0; left:0; z-index:200; background:#fff;}
 .Dr_Top_Wrap .Dr_Top_Inner {width:1400px; margin:0 auto;}
 .Dr_Top_Wrap .Dr_Top_Inner:after {content:''; display:block; clear:both;}
-.Dr_Top_Wrap .Dr_Top_Inner > div {float:left;}
-.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_L {width:30%;}
-.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_M {width:40%;}
-.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_R {width:30%;}
 
-.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_L > ul {text-align:left;}
+
+li{display: inline-block; margin-right: 50px;}
+
+/*.Dr_Top_Wrap .Dr_Top_Inner > div {float:left;}*/
+/*.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_L {width:30%;}
+.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_M {width:40%;}
+.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_R {width:30%;}*/
+
+/*.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_L > ul {text-align:left;}
 .Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_L > ul > li {display:inline-block; margin:0 10px 0 0; position:relative;}
 .Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_L > ul > li > a {font-size:1rem; display:block; padding:30px 0; color:#777;}
 .Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_L > ul > li > a:hover {color:#000;}
@@ -19,7 +23,7 @@
 .Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_R > ul {text-align:right;}
 .Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_R > ul > li {display:inline-block; margin:0 10px 0 0;}
 .Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_R > ul > li > a {font-size:1rem; display:block; padding:30px 0; color:#777;}
-.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_R > ul > li > a:hover {color:#000;}
+.Dr_Top_Wrap .Dr_Top_Inner .Dr_Top_R > ul > li > a:hover {color:#000;}*/
 
 .maincont {width:100%;}
 .DrmainSl {width:100%;}

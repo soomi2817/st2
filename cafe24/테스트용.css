@@ -1,0 +1,28 @@
+/* 상세페이지 구매버튼 */
+
+.action_button [class^='btnSubmit'], .action_button a[class^='btnSubmit']{
+  background-color: #6cf;
+  color: #01f;
+  font-family: 'Hahmlet', serif;
+  font-weight: 800;
+  font-size: 2em;
+}
+.action_button [class^='btnSubmit']:hover, .action_button a[class^='btnSubmit']:hover{
+  background-color: #01f;
+  color: #6cf;
+}
+
+/* 상세페이지 구매버튼 */
+
+/* 내꺼 버튼 추가 - 상세페이지 구매버튼 */
+.ec-base-button [class^="btnSubmit"], .ec-base-button [class^="btnSubmit"]{
+  background-color: #6cf;
+  color: #01f;
+}
+.ec-base-button [class^="btnSubmit"]:hover, .ec-base-button [class^="btnSubmit"]:hover{
+  background-color: #01f;
+  color: #6cf; 
+}
+
+/* 내꺼 버튼 추가 - 상세페이지 구매버튼 */
+

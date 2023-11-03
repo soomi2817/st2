@@ -1,0 +1,12 @@
+/* 커먼셀렉트 상품분류 상단 이미지 */
+
+#contents > .section.product_top_image{
+  max-width: none !important;
+  width: 100%;
+}
+#contents > .section.product_top_image img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}

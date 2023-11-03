@@ -1,7 +1,7 @@
 /* 공통 */
 .xans-product-1 { margin:22px 0 0; }
 .xans-product-1 h2 { margin:0 0 16px; font-weight:normal; font-size:20px; font-family:Arial, "돋움", Dotum, sans-serif; color:#2e2e2e; text-align:center; }
-.xans-product-1 img { vertical-align:middle; }
+.xans-product-1 img { vertical-align:middle; position: relative; border-radius: 120px;}
 .xans-product-1 ul.prdList { display:table; width:100%; min-width:756px; margin:-20px 0 0; font-size:0; line-height:0; }
 .xans-product-1 ul.prdList li.item { display:inline-block; margin:20px 0; color:#757575; vertical-align:top; *display:inline; *zoom:1; }
 .xans-product-1 ul.prdList li.item .box { margin:0 auto; font-size:12px; line-height:18px; text-align:center; }

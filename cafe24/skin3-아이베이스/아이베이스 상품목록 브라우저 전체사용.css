@@ -1,0 +1,9 @@
+/* 아이베이스 상품목록 상단이미지 브라우저 전체사용 */
+
+.xans-product-headcategory.titleArea{
+  position: relative;
+}
+.xans-product-headcategory.titleArea .banner{
+  position: absolute;
+}
+.xans-product-headcategory.titleArea .banner img{}

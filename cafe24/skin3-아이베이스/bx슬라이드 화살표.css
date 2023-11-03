@@ -1,0 +1,18 @@
+/* bx 슬라이드 화살표 변경 */
+
+.xans-smart-banner-admin-PC00003 .xans-smart-banner-bx-wrapper .bx-controls-direction a{
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
+  transform: translateY(-50%);
+}
+.xans-smart-banner-admin-PC00003 .xans-smart-banner-bx-wrapper .bx-prev{
+  background-image: url(//ecimg.cafe24img.com/pg529b63741007086/tnalfjqm/web/myfolder/left-chevron.png);
+}
+.xans-smart-banner-admin-PC00003 .xans-smart-banner-bx-wrapper .bx-next{
+  background-image: url(//ecimg.cafe24img.com/pg529b63741007086/tnalfjqm/web/myfolder/right-chevron.png);
+}
+
+/* bx 슬라이드 화살표 변경 끝 */
